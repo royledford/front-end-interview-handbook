@@ -1143,11 +1143,7 @@ The same-origin policy prevents JavaScript from making requests across domain bo
 
 * https://en.wikipedia.org/wiki/Same-origin_policy
 
-### Make this work:
-
-```js
-duplicate([1, 2, 3, 4, 5]); // [1,2,3,4,5,1,2,3,4,5]
-```
+### Make this work: ```duplicate([1, 2, 3, 4, 5]); // [1,2,3,4,5,1,2,3,4,5]```
 
 ```js
 function duplicate(arr) {
